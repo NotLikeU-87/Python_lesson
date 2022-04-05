@@ -7,4 +7,3 @@
 n = int(input('Введите число:'))
 itogi = (n + int(str(n) + str(n)) + int(str(n) + str(n) + str(n)))
 print('Сумма чисел n + nn + nnn: ', itogi)
-3
