@@ -5,5 +5,6 @@
 Считаем 3 + 33 + 333 = 369.
 """
 n = int(input('Введите число:'))
-itogi = (n + n * n + n * n * n)
+itogi = (n + int(str(n) + str(n)) + int(str(n) + str(n) + str(n)))
 print('Сумма чисел n + nn + nnn: ', itogi)
+3
